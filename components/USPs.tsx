@@ -92,7 +92,7 @@ export default function USPs() {
 
         {/* USP Cards */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16"
           role="list"
           aria-label="Unsere Vorteile"
         >
