@@ -45,7 +45,7 @@ export default function Hero() {
     <section
       id="hero"
       aria-label="Hero-Bereich"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden w-full"
       style={{ background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)" }}
     >
       {/* Animated background particles */}
