@@ -156,7 +156,7 @@ export default function Hero() {
           {/* Stats */}
           <motion.div
             variants={itemVariants}
-            className="mt-16 grid grid-cols-3 gap-8 max-w-md mx-auto"
+            className="mt-16 grid grid-cols-3 gap-4 w-full max-w-sm mx-auto"
             role="list"
             aria-label="Fahrschule-Kennzahlen"
           >
@@ -166,7 +166,7 @@ export default function Hero() {
               { value: "★★★★★", label: "Bewertet" },
             ].map((stat) => (
               <div key={stat.label} className="text-center" role="listitem">
-                <div className="text-2xl font-black text-accent">{stat.value}</div>
+                <div className="text-xl sm:text-2xl font-black text-accent leading-tight">{stat.value}</div>
                 <div className="text-white/60 text-xs mt-1">{stat.label}</div>
               </div>
             ))}
